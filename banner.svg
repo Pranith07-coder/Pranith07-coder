@@ -54,7 +54,7 @@
     <text x="172" y="232" class="tag t1">retrieval-augmented generation</text>
     <text x="172" y="232" class="tag t2">LLM-powered products</text>
     <text x="172" y="232" class="tag t3">GenAI interfaces in React</text>
-    <text x="64" y="272" class="mono">Hyderabad, India</text>
+    <text x="64" y="272" class="mono">London, United Kingdom</text>
 
     <!-- Right: a RAG pipeline drawn as a small network -->
     <g transform="translate(760 70)">
