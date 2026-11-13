@@ -22,20 +22,27 @@ class PranithManuri(AIEngineer):
     ships_with = ["React", "Streamlit", "Node.js", "Vercel"]
 
     def philosophy(self):
-        return "Models are only useful when people can trust the answers and enjoy the interface."
+        return "Grounded answers. Clean interfaces. Shipped."
 ```
 
 <br>
 
 ### `$ cat featured_project.md`
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
 #### [PDF Insight Engine](https://github.com/Pranith07-coder/PDF-Insight-Engine)
 
 Chat with your documents. Upload PDFs, ask questions in plain language, and get answers grounded in what the documents actually say.
+
+```mermaid
+flowchart LR
+    A[PDF upload] --> B[Extract and chunk<br/>PyPDF2 + LangChain]
+    B --> C[Embed<br/>Gemini embedding-001]
+    C --> D[(FAISS<br/>vector index)]
+    Q([User question]) --> D
+    D --> E[Top-k context]
+    E --> F[Gemini LLM<br/>QA chain]
+    F --> G([Grounded answer])
+```
 
 - Recursive chunking keeps context intact across pages
 - Gemini embeddings indexed in **FAISS** for fast similarity search
@@ -43,25 +50,6 @@ Chat with your documents. Upload PDFs, ask questions in plain language, and get 
 - Wrapped in a clean **Streamlit** interface
 
 `Python` `LangChain` `Gemini` `FAISS` `Streamlit`
-
-</td>
-<td width="45%" valign="top">
-
-```mermaid
-flowchart TD
-    A[PDF upload] --> B[Extract text<br/>PyPDF2]
-    B --> C[Chunk<br/>RecursiveTextSplitter]
-    C --> D[Embed<br/>Gemini embedding-001]
-    D --> E[(FAISS<br/>vector index)]
-    Q[User question] --> E
-    E --> F[Top-k context]
-    F --> G[Gemini LLM<br/>LangChain QA chain]
-    G --> H[Grounded answer]
-```
-
-</td>
-</tr>
-</table>
 
 <br>
 
@@ -71,15 +59,19 @@ flowchart TD
 <tr>
 <td width="50%" valign="top">
 
-**[Gemini Clone](https://github.com/Pranith07-coder/Gemini-clone)**<br>
-<sub>Conversational AI on the Google Gemini API with a responsive React chat UI.</sub><br>
+**[Gemini Clone](https://github.com/Pranith07-coder/Gemini-clone)**
+
+Conversational AI on the Google Gemini API with a responsive React chat UI.
+
 <a href="https://gemini-clone-com.vercel.app/">Live demo</a> · `React` `Gemini API`
 
 </td>
 <td width="50%" valign="top">
 
-**[Statistics Calculator](https://github.com/Pranith07-coder/Statistics-Calculator)**<br>
-<sub>Descriptive statistics, probability and hypothesis testing, computed instantly in the browser.</sub><br>
+**[Statistics Calculator](https://github.com/Pranith07-coder/Statistics-Calculator)**
+
+Descriptive statistics, probability and hypothesis testing, computed instantly in the browser.
+
 <a href="https://statisticscalculatorcom.netlify.app/">Live demo</a> · `JavaScript`
 
 </td>
@@ -87,15 +79,19 @@ flowchart TD
 <tr>
 <td width="50%" valign="top">
 
-**[Bookwave](https://github.com/Pranith07-coder/Bookwave-E-Commerce_Book_Store)**<br>
-<sub>Full-stack e-commerce platform for books with search and product browsing.</sub><br>
+**[Bookwave](https://github.com/Pranith07-coder/Bookwave-E-Commerce_Book_Store)**
+
+Full-stack e-commerce platform for books with search and product browsing.
+
 `MongoDB` `Express` `React` `Node.js`
 
 </td>
 <td width="50%" valign="top">
 
-**[Resumegen](https://github.com/Pranith07-coder/Resumegen)**<br>
-<sub>Resume builder with live editing and customizable templates.</sub><br>
+**[Resumegen](https://github.com/Pranith07-coder/Resumegen)**
+
+Resume builder with live editing and customizable templates.
+
 <a href="https://resumegen7.vercel.app/">Live demo</a> · `React`
 
 </td>
@@ -103,15 +99,19 @@ flowchart TD
 <tr>
 <td width="50%" valign="top">
 
-**[Movie Search](https://github.com/Pranith07-coder/Movie-Search)**<br>
-<sub>Find films, shows and actors with cast, ratings and trailers.</sub><br>
+**[Movie Search](https://github.com/Pranith07-coder/Movie-Search)**
+
+Find films, shows and actors with cast, ratings and trailers.
+
 <a href="https://moviesearchcom.vercel.app/">Live demo</a> · `JavaScript`
 
 </td>
 <td width="50%" valign="top">
 
-**[CaféHunt](https://github.com/Pranith07-coder/Cafe-Hunt)**<br>
-<sub>Helps remote workers find cafés with reliable Wi-Fi.</sub><br>
+**[CaféHunt](https://github.com/Pranith07-coder/Cafe-Hunt)**
+
+Helps remote workers find cafés with reliable Wi-Fi.
+
 <a href="https://cafe-hunt.vercel.app">Live demo</a> · `HTML` `CSS` `JavaScript`
 
 </td>
@@ -120,7 +120,7 @@ flowchart TD
 
 <br>
 
-### `$ pip list --toolkit`
+### `$ cat stack.txt`
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,express,mongodb,tailwind,vite,git,github,vercel,netlify&perline=13" alt="Python, JavaScript, TypeScript, React, Node.js, Express, MongoDB, Tailwind, Vite, Git, GitHub, Vercel, Netlify">
