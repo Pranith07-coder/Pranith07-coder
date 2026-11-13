@@ -1,61 +1,151 @@
-## Pranith Manuri
+<p align="center">
+  <img src="./banner.svg" alt="Pranith Manuri, AI Engineer" width="100%">
+</p>
 
-**AI Engineer** · Building LLM-powered applications with retrieval, reasoning and clean user experiences
-Hyderabad, India · [LinkedIn](https://www.linkedin.com/in/pranith-manuri-578876233) · [pranithmanuri07@gmail.com](mailto:pranithmanuri07@gmail.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/pranith-manuri-578876233"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:pranithmanuri07@gmail.com"><img src="https://img.shields.io/badge/Email-pranithmanuri07%40gmail.com-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Open%20to-AI%20Engineering%20Roles-14b8a6?style=for-the-badge" alt="Open to AI engineering roles">
+</p>
 
----
+<br>
 
-### Summary
+### `$ whoami`
 
-AI Engineer focused on turning large language models into dependable products. I work across the full stack of an AI application: document ingestion and chunking, embeddings and vector search, prompt and chain design with LangChain, and production-ready web interfaces in React. I care about systems that give grounded answers, are easy to use, and are simple to deploy.
+```python
+class PranithManuri(AIEngineer):
+    location   = "Hyderabad, India"
+    role       = "AI Engineer"
+    builds     = ["RAG systems", "LLM-powered apps", "GenAI interfaces"]
+    llm_stack  = ["LangChain", "Google Gemini", "FAISS", "Embeddings"]
+    languages  = ["Python", "JavaScript", "TypeScript"]
+    ships_with = ["React", "Streamlit", "Node.js", "Vercel"]
 
-**Core areas:** Retrieval-augmented generation (RAG) · LLM integration (Google Gemini) · Vector search (FAISS) · Python back ends · React front ends
+    def philosophy(self):
+        return "Models are only useful when people can trust the answers and enjoy the interface."
+```
 
----
+<br>
 
-### Selected work
+### `$ cat featured_project.md`
 
-**[PDF Insight Engine](https://github.com/Pranith07-coder/PDF-Insight-Engine)** · Document question answering with RAG
-- Lets users upload PDF documents and query them in natural language
-- Pipeline: PDF text extraction (PyPDF2) → recursive chunking → Gemini embeddings → FAISS vector index → Gemini answer generation through a LangChain QA chain with a custom prompt
-- Answers stay grounded in the uploaded documents rather than general model knowledge
-- *Python, LangChain, Google Gemini, FAISS, Streamlit*
+<table>
+<tr>
+<td width="55%" valign="top">
 
-**[Gemini Clone](https://github.com/Pranith07-coder/Gemini-clone)** · Conversational AI interface · [Live demo](https://gemini-clone-com.vercel.app/)
-- Chat application built on the Google Gemini API, modeled on the Gemini product experience
-- Handles prompt submission, response rendering and conversation flow in a responsive React UI
-- *React, Gemini API, Vercel*
+#### [PDF Insight Engine](https://github.com/Pranith07-coder/PDF-Insight-Engine)
 
-**[Statistics Calculator](https://github.com/Pranith07-coder/Statistics-Calculator)** · Applied statistics toolkit · [Live demo](https://statisticscalculatorcom.netlify.app/)
-- Descriptive statistics, probability and hypothesis testing with instant results in the browser
-- *JavaScript, HTML, CSS, Netlify*
+Chat with your documents. Upload PDFs, ask questions in plain language, and get answers grounded in what the documents actually say.
 
----
+- Recursive chunking keeps context intact across pages
+- Gemini embeddings indexed in **FAISS** for fast similarity search
+- A **LangChain** QA chain with a custom prompt answers only from retrieved context
+- Wrapped in a clean **Streamlit** interface
 
-### Additional projects
+`Python` `LangChain` `Gemini` `FAISS` `Streamlit`
 
-| Project | Description | Stack |
-|---|---|---|
-| [Bookwave](https://github.com/Pranith07-coder/Bookwave-E-Commerce_Book_Store) | E-commerce platform for books with search and product browsing | MongoDB, Express, React, Node.js |
-| [Resumegen](https://github.com/Pranith07-coder/Resumegen) | Resume builder with live editing and templates · [demo](https://resumegen7.vercel.app/) | React |
-| [Movie Search](https://github.com/Pranith07-coder/Movie-Search) | Search for films, shows and actors with cast, ratings and trailers · [demo](https://moviesearchcom.vercel.app/) | JavaScript |
-| [CaféHunt](https://github.com/Pranith07-coder/Cafe-Hunt) | Finds cafés with reliable Wi-Fi for remote workers · [demo](https://cafe-hunt.vercel.app) | HTML, CSS, JavaScript |
+</td>
+<td width="45%" valign="top">
 
----
+```mermaid
+flowchart TD
+    A[PDF upload] --> B[Extract text<br/>PyPDF2]
+    B --> C[Chunk<br/>RecursiveTextSplitter]
+    C --> D[Embed<br/>Gemini embedding-001]
+    D --> E[(FAISS<br/>vector index)]
+    Q[User question] --> E
+    E --> F[Top-k context]
+    F --> G[Gemini LLM<br/>LangChain QA chain]
+    G --> H[Grounded answer]
+```
 
-### Technical skills
+</td>
+</tr>
+</table>
 
-| Area | Tools |
-|---|---|
-| AI and LLMs | LangChain, Google Gemini API, embeddings, FAISS, prompt engineering, RAG pipelines |
-| Languages | Python, JavaScript, TypeScript |
-| Back end | Node.js, Express, MongoDB, Streamlit |
-| Front end | React, Tailwind CSS, Vite, HTML, CSS |
-| Tooling and deployment | Git, GitHub, Vercel, Netlify |
+<br>
 
----
+### `$ ls ./projects`
 
-### Contact
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Open to AI engineering roles and collaboration on LLM and RAG projects.
-Email [pranithmanuri07@gmail.com](mailto:pranithmanuri07@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/pranith-manuri-578876233).
+**[Gemini Clone](https://github.com/Pranith07-coder/Gemini-clone)**<br>
+<sub>Conversational AI on the Google Gemini API with a responsive React chat UI.</sub><br>
+<a href="https://gemini-clone-com.vercel.app/">Live demo</a> · `React` `Gemini API`
+
+</td>
+<td width="50%" valign="top">
+
+**[Statistics Calculator](https://github.com/Pranith07-coder/Statistics-Calculator)**<br>
+<sub>Descriptive statistics, probability and hypothesis testing, computed instantly in the browser.</sub><br>
+<a href="https://statisticscalculatorcom.netlify.app/">Live demo</a> · `JavaScript`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Bookwave](https://github.com/Pranith07-coder/Bookwave-E-Commerce_Book_Store)**<br>
+<sub>Full-stack e-commerce platform for books with search and product browsing.</sub><br>
+`MongoDB` `Express` `React` `Node.js`
+
+</td>
+<td width="50%" valign="top">
+
+**[Resumegen](https://github.com/Pranith07-coder/Resumegen)**<br>
+<sub>Resume builder with live editing and customizable templates.</sub><br>
+<a href="https://resumegen7.vercel.app/">Live demo</a> · `React`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Movie Search](https://github.com/Pranith07-coder/Movie-Search)**<br>
+<sub>Find films, shows and actors with cast, ratings and trailers.</sub><br>
+<a href="https://moviesearchcom.vercel.app/">Live demo</a> · `JavaScript`
+
+</td>
+<td width="50%" valign="top">
+
+**[CaféHunt](https://github.com/Pranith07-coder/Cafe-Hunt)**<br>
+<sub>Helps remote workers find cafés with reliable Wi-Fi.</sub><br>
+<a href="https://cafe-hunt.vercel.app">Live demo</a> · `HTML` `CSS` `JavaScript`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+### `$ pip list --toolkit`
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,express,mongodb,tailwind,vite,git,github,vercel,netlify&perline=13" alt="Python, JavaScript, TypeScript, React, Node.js, Express, MongoDB, Tailwind, Vite, Git, GitHub, Vercel, Netlify">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini">
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" alt="FAISS">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/RAG-Pipelines-14b8a6?style=flat-square" alt="RAG pipelines">
+  <img src="https://img.shields.io/badge/Prompt-Engineering-6366f1?style=flat-square" alt="Prompt engineering">
+</p>
+
+<br>
+
+### `$ ./contact.sh`
+
+```bash
+echo "Let's build something intelligent together."
+# email     → pranithmanuri07@gmail.com
+# linkedin  → linkedin.com/in/pranith-manuri-578876233
+# status    → open to AI engineering roles and LLM / RAG collaborations
+```
+
+<p align="center">
+  <sub>Thanks for stopping by.</sub>
+</p>
