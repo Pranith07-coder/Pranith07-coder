@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="mailto:pranithmanuri07@gmail.com"><img src="https://img.shields.io/badge/Email-pranithmanuri07%40gmail.com-0b1020?style=for-the-badge&logo=gmail&logoColor=5eead4" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/pranith-manuri-578876233"><img src="https://img.shields.io/badge/LinkedIn-Pranith%20Manuri-0b1020?style=for-the-badge&logo=linkedin&logoColor=60a5fa" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/pranithmanuri"><img src="https://img.shields.io/badge/LinkedIn-Pranith%20Manuri-0b1020?style=for-the-badge&logo=linkedin&logoColor=60a5fa" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/London-Open%20to%20AI%20roles-0b1020?style=for-the-badge&logo=googlemaps&logoColor=a78bfa" alt="London, open to AI roles">
 </p>
 
