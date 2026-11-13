@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="mailto:pranithmanuri07@gmail.com"><img src="https://img.shields.io/badge/Email-pranithmanuri07%40gmail.com-0b1020?style=for-the-badge&logo=gmail&logoColor=5eead4" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/pranithmanuri"><img src="https://img.shields.io/badge/LinkedIn-Pranith%20Manuri-0b1020?style=for-the-badge&logo=linkedin&logoColor=60a5fa" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/pranithmanuri"><img src="https://img.shields.io/badge/LinkedIn-Pranith%20Manuri-0b1020?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSI4IiByPSI0IiBmaWxsPSIjNjBhNWZhIi8%2BPHBhdGggZD0iTTQgMjFjMC00LjQgMy42LTcgOC03czggMi42IDggN3oiIGZpbGw9IiM2MGE1ZmEiLz48L3N2Zz4%3D" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/London-Open%20to%20AI%20roles-0b1020?style=for-the-badge&logo=googlemaps&logoColor=a78bfa" alt="London, open to AI roles">
   <img src="https://img.shields.io/badge/MSc%20AI%20%C2%B7%20UEL-Placement%20year-0b1020?style=for-the-badge&logo=googlescholar&logoColor=5eead4" alt="MSc Artificial Intelligence student, University of East London, on placement year">
 </p>
