@@ -14,7 +14,7 @@
 
 ```python
 class PranithManuri(AIEngineer):
-    location   = "Hyderabad, India"
+    location   = "London, United Kingdom"
     role       = "AI Engineer"
     builds     = ["RAG systems", "LLM-powered apps", "GenAI interfaces"]
     llm_stack  = ["LangChain", "Google Gemini", "FAISS", "Embeddings"]
