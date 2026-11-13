@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="236" viewBox="0 0 430 236"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#141a3a"/></linearGradient>
+<radialGradient id="gl" cx="1" cy="0" r=".6"><stop offset="0" stop-color="#6366f1" stop-opacity=".28"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+<pattern id="gr" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+<clipPath id="cp"><rect width="430" height="236" rx="16"/></clipPath>
+</defs>
+<style>
+.t{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif;} .m{font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;}
+.h1{font:700 30px 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif;fill:#f8fafc;letter-spacing:-.5px}
+.h2{font:700 22px 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif;fill:#f8fafc;letter-spacing:-.3px}
+.p{font:400 15px 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif;fill:#a5b0c8}
+.ps{font:400 14px 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif;fill:#a5b0c8}
+.lb{font:600 11.5px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#5eead4;letter-spacing:2px}
+.dim{font:500 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#7c88a6}
+</style><g clip-path="url(#cp)"><rect width="430" height="236" fill="url(#bg)"/><rect width="430" height="236" fill="url(#gr)"/><rect width="430" height="236" fill="url(#gl)"/><rect x="28" y="30" width="8" height="8" rx="2" fill="#a78bfa"/><text x="44" y="38" class="lb" style="fill:#a78bfa">GENERATIVE AI</text><text x="28" y="80" class="h2">Gemini Clone</text><text x="28" y="112" class="ps">Conversational AI on the Google Gemini</text><text x="28" y="133" class="ps">API with a responsive React chat UI.</text><rect x="28" y="170" width="59" height="26" rx="13" fill="#121a33" stroke="#2f3b60" stroke-opacity="1"/><text x="39" y="187.5" class="m" style="font-size:12px;fill:#cbd5e1">React</text><rect x="95" y="170" width="96" height="26" rx="13" fill="#121a33" stroke="#2f3b60" stroke-opacity="1"/><text x="106" y="187.5" class="m" style="font-size:12px;fill:#cbd5e1">Gemini API</text><circle cx="344" cy="40" r="4" fill="#22c55e"/><text x="402" y="44" text-anchor="end" class="dim" style="fill:#86efac">LIVE</text><text x="402" y="188" text-anchor="end" class="t" style="font:600 18px 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif;fill:#60a5fa">↗</text></g><rect x=".5" y=".5" width="429" height="235" rx="15.5" fill="none" stroke="#2a3558"/></svg>
